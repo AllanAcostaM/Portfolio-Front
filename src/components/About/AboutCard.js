@@ -8,14 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Jossep Acosta </span>
-            from <span className="purple"> Bogotá, Colombia.</span>
+            Hi Everyone, I am <span className="purple">Jossep Acosta</span>
+            from <span className="purple"> Bogotá, Colombia.<br/></span>
             <br />
-            I currently work as a Unity game developer.
-            <br />
-            In my career, I have developed front-end programs with the District
-            University and a development Bootcamp with the Unity engine from
-            Generation Colombia.
+            I’m a Unity game developer with extensive experience in creating 2D and 3D games across various genres, such as survival-horror, platformers, and post-apocalyptic.<br/> 
+            <br/>Throughout my career, I have held key roles such as <span className="purple"> Tech Artist / Programmer</span>,<span className="purple"> Game Programmer</span>, and <span className="purple">Level Designer</span>, which has allowed me to develop a comprehensive understanding of game creation and lead teams toward the successful implementation of innovative ideas.
+            I love working in different areas of game development such as:
             <br />
             <br />I love working in different areas of game development such as:
           </p>
@@ -27,12 +25,15 @@ function AboutCard() {
               <ImPointRight /> AI programming
             </li>
             <li className="about-activity">
-              <ImPointRight /> Animation 3D
+              <ImPointRight /> QA/Game Testing
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Interdisciplinary Collaboration
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Find excellence among the details <br />
+            <br/>"Find excellence among the details <br />
             that have made you stumble"{" "}
           </p>
           <footer className="blockquote-footer">Jossep</footer>

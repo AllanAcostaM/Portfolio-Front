@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import MyAva from "../../Assets/MyAvatar.svg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn, FaItchIo } from "react-icons/fa";
@@ -43,9 +43,9 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={3} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+            <img src={MyAva} className="img-fluid rounded-avatar" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

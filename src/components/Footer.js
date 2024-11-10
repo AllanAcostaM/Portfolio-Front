@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn, FaItchIo } from "react-icons/fa";
+import CurrentStatus from "./CurrentStatus";
 
 function Footer() {
   let date = new Date();
@@ -10,10 +11,10 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>My phone number is +57 319 479 8510</h3>
+          <h3>Mail: <b className="purple"> allanacost.27@gmail.com</b></h3> 
         </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} JA</h3>
+        <Col md="4" className="footer-status">
+          <CurrentStatus /> {/* Muestra el "Estado Actual" aquí */}
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
