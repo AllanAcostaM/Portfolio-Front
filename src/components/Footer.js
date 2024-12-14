@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
-import { FaLinkedinIn, FaItchIo } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import CurrentStatus from "./CurrentStatus";
 
 function Footer() {
@@ -24,16 +24,6 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://itch.io/profile/joseph122"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaItchIo />
               </a>
             </li>
             <li className="social-icons">

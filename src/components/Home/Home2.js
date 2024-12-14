@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import MyAva from "../../Assets/MyAvatar.svg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
-import { FaLinkedinIn, FaItchIo } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -15,31 +15,31 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm Allan, an enthusiastic game developer looking to innovate
-              creative ideas. 💁🏻
+            I'm Allan, an enthusiastic software developer passionate about crafting innovative  <br />
+            solutions. 💻  
               <br />
               <br />I handle technologies like
               <i>
-                <b className="purple"> C#, JavaScript, and SQL. </b>
+                <b className="purple"> React</b> {" "},{" "} <b className="purple">Angular</b> {" "},{" "} <b className="purple">Node.js</b> {" "} and {" "} <b className="purple"> postgreSQL</b>
               </i>
               <br />
               <br />
-              My areas of interest are &nbsp;
+              My areas of interest include&nbsp; 
               <i>
-                <b className="purple"> game programming through mechanics </b>{" "}
-                and the integration of{" "}
+                <b className="purple">building intuitive </b>{" "} and {" "} <b className="purple">scalable web applications</b>{""},
+                enhancing user interfaces and{" "}
                 <b className="purple">
-                  machine learning in virtual environments.
+                ensuring efficient server-side performance. 
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I apply my passion to creating video games
-              through dynamic system integrations using with{" "}
-              <b className="purple">Unity</b> and applying version control
-              systems using
+              Whenever possible, I channel my passion into developing 
+              software projects by implementing modern frameworks,{" "}
+              <b className="purple">leveraging design patterns</b>{""},{""} <b className="purple"> following clean architecture principles</b>{""}, and{""} <b className="purple">collaborating using agile methodologies</b>. I also maintain high-quality code through
+               version control systems like
               <i>
-                <b className="purple"> Git and GitHub.</b>
+                <b className="purple"> Git </b>{" "}and{" "}<b className="purple">GitHub</b>{""}.{""} 
               </i>
             </p>
           </Col>
@@ -64,16 +64,6 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://itch.io/profile/joseph122"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaItchIo />
                 </a>
               </li>
               <li className="social-icons">

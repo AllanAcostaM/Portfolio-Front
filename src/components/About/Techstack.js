@@ -1,27 +1,45 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { TbBrandCSharp, TbSql } from "react-icons/tb";
-import { FaUnity } from "react-icons/fa";
-import { DiJavascript1, DiGit } from "react-icons/di";
+import { FaUnity, FaNodeJs, FaReact, FaSass} from "react-icons/fa";
+import { SiAngular, SiTypescript, SiExpress } from "react-icons/si";
+import { DiJavascript1, DiPostgresql } from "react-icons/di";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandCSharp />
+        <FaReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAngular />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaUnity />
+        <FaSass />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaNodeJs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <TbSql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <TbBrandCSharp />
       </Col>
+
     </Row>
   );
 }

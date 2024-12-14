@@ -3,10 +3,11 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiGithub,
-  SiAudacity,
-  SiBlender,
   SiWindows11,
 } from "react-icons/si";
+import { FaGitAlt, FaFigma } from "react-icons/fa";
+import { VscAzureDevops } from "react-icons/vsc";
+
 
 function Toolstack() {
   return (
@@ -18,13 +19,16 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <FaGitAlt />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAudacity />
+        <VscAzureDevops />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiBlender />
+        <FaFigma />
       </Col>
     </Row>
   );

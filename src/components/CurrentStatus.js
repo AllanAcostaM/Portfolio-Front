@@ -1,12 +1,11 @@
-// CurrentStatus.js
 import React, { useEffect, useState } from "react";
 import { FaLaptopCode, FaBook, FaWrench } from "react-icons/fa";
 
 // Definición de los estados y sus íconos correspondientes
 const states = [
-  { text: "Working on future game versions with AI", icon: <FaLaptopCode /> },
-  { text: "Improving skills in UI animations in Unity", icon: <FaBook /> },
-  { text: "Exploring advanced shading and materials in Unity", icon: <FaWrench /> },
+  { text: "Building dynamic web applications", icon: <FaLaptopCode /> },
+  { text: "Learning advanced concepts in TypeScript", icon: <FaBook /> },
+  { text: "Improving skills in design patterns", icon: <FaWrench /> },
 ];
 
 function CurrentStatus() {
