@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { FaItchIo } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
+import { CiLink } from "react-icons/ci";
 
 function ProjectCards(props) {
   return (
@@ -35,8 +36,25 @@ function ProjectCards(props) {
             {"Play"}
           </Button>
         )}
+
+        {"\n"}
+        {"\n"}
+
+        {/* New button for CiLink */}
+        {props.projectLink && props.projectLink !== "" && (
+          <Button
+            variant="primary"
+            href={props.projectLink}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <CiLink /> &nbsp;
+            {"Go Project"}
+          </Button>
+        )}
       </Card.Body>
     </Card>
   );
 }
+
 export default ProjectCards;
