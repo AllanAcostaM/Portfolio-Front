@@ -1,7 +1,7 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row} from "react-bootstrap";
 import { Outlet, Link, useLocation, Navigate } from "react-router-dom";
-import Particle from "../Particle";
+
 
 function Projects() {
 

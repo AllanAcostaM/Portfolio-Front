@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { TbBrandCSharp, TbSql } from "react-icons/tb";
-import { FaUnity, FaNodeJs, FaReact, FaSass} from "react-icons/fa";
+import { FaNodeJs, FaReact, FaSass} from "react-icons/fa";
 import { SiAngular, SiTypescript, SiExpress } from "react-icons/si";
 import { DiJavascript1, DiPostgresql } from "react-icons/di";
 
