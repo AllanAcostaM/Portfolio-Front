@@ -16,10 +16,10 @@ function Projects() {
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works</strong>
+        Mis trabajos  <strong className="purple">recientes</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+        Aquí tienes algunos proyectos en los que he trabajado recientemente.
         </p>
         <div style={{ display: "flex", justifyContent: "center", marginBottom: "10px" }}>
           <Link
@@ -27,13 +27,13 @@ function Projects() {
             className={`btn ${location.pathname === "/project/frontend" ? "btn-primary" : "btn-secondary"}`}
             style={{ marginRight: "10px" }}
           >
-            Front-End Wonders
+            Maravillas Front-End
           </Link>
           <Link
             to="/project/csharp"
             className={`btn ${location.pathname === "/project/csharp" ? "btn-primary" : "btn-secondary"}`}
           >
-            Built with C#
+            Desarrollados con C#
           </Link>
         </div>
         {/* Outlet para renderizar los subcomponentes */}

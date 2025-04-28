@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
@@ -8,6 +7,15 @@ import Virus from "../../Assets/Projects/CoverGlowVirus.png";
 import Distress from "../../Assets/Projects/CoverCattleInDistress.png";
 import Alone from "../../Assets/Projects/CoverAloneWithTheDead.png";
 import Echoes from "../../Assets/Projects/CoverEchoesOfTheForest.png";
+import {
+  SiSass,
+  SiUnity,
+  SiFigma
+} from "react-icons/si";
+
+import { TbBrandCSharp } from "react-icons/tb";
+
+
 
 
 function ProjectsCSharp() {
@@ -16,28 +24,32 @@ function ProjectsCSharp() {
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-                imgPath={Echoes}
-                showGitHub={true}
-                isBlog={false}
-                title="Echoes Of The Forest"
-                description={
+              imgPath={Echoes}
+              showGitHub={true}
+              isBlog={false}
+              title="Echoes Of The Forest"
+              techIcons={[
+                SiUnity,
+                TbBrandCSharp,
+                SiSass,
+                SiFigma
+              ]}
+              description={
                 <span
-                    dangerouslySetInnerHTML={{
-                    __html: `
-                    - I designed and developed player mechanics, implementing physics-based movement using a Character Controller and dynamic sound effects for movements through an AudioManager and RayCast. I created interactions with items like the flashlight, which serves as the primary tool, managed inventory with Open/Close state controls, and developed camera systems with smooth animations using Quaternion Slerp for rotation smoothing. I utilized design patterns such as Singleton and state management to optimize modularity and efficiency in the code.<br><br>
-                    - I implemented C# code in UI/UX interfaces for menus and player HUD, including dynamic systems for health, stamina, battery, and BloodScreen. I integrated events such as OnClick, colliders, and real-time updates for bars and visual effects.<br><br>
-                    - I took charge of leading everything included in this version. EotF v.0.4<br><br>
-                   `,
-                    }}
+                  dangerouslySetInnerHTML={{
+                    __html: ` <br>
+                      - Echoes Of The Forest es un survival horror en primera persona donde el jugador debe valerse del sigilo, la resolución de puzles y la gestión de recursos limitados para sobrevivir a un entorno plagado de cultistas y fenómenos paranormales. Sin acceso a armas, exploras localizaciones inquietantes, desentrañas la oscura historia del lugar y evitas la detección a través de la astucia y la observación. <br/>
+                      <br/>
+                     `,
+                  }}
                 />
-                }
-                ghLink="https://github.com/AllanAcostaM/EchoesOfTheForest"
-                ItchLink="https://joseph122.itch.io/echoesoftheforest"
+              }
+              ghLink="https://github.com/AllanAcostaM/EchoesOfTheForest"
+              ItchLink="https://joseph122.itch.io/echoesoftheforest"
             />
-            </Col>
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -45,16 +57,19 @@ function ProjectsCSharp() {
               showGitHub={true}
               isBlog={false}
               title="Alone With The Dead"
+              techIcons={[
+                SiUnity,
+                TbBrandCSharp,
+                SiSass,
+                SiFigma
+              ]}
               description={
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: `
-                    - I developed enemy mechanics using a state system with the State and Singleton patterns. I integrated 3D models into Animator, configuring transitions between states such as patrolling, attacking, and alerting, optimizing the dynamic behavior of the enemy.<br/>
+                    __html: ` <br>
+                    - Alone With The Dead te sumerge en un hospital abandonado tras una catástrofe desconocida. Despertando herido y desorientado, recorres pasillos desiertos en busca de pistas, enfrentándote a sucesos perturbadores y ecos lejanos que incrementan la tensión. Su atmósfera inmersiva y su narrativa cargada de suspense ponen a prueba tu ingenio y tu valor. <br/>
                     <br/>
-                    - I implemented game interfaces with C# code that guide the player with mission indicators and notifications, updating progress in real-time through events.<br/>
-                    <br/>
-                    - I corrected textures in the environment and added decals to create a more immersive atmosphere. I also implemented optimization adjustments in light baking and occlusion culling to enhance the performance of the scene.<br><br>
-                    `,
+                   `,
                   }}
                 />
               }
@@ -63,23 +78,25 @@ function ProjectsCSharp() {
             />
           </Col>
 
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Virus}
               showGitHub={true}
               isBlog={false}
               title="Grow Virus"
+              techIcons={[
+                SiUnity,
+                TbBrandCSharp,
+                SiSass,
+                SiFigma
+              ]}
               description={
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: `
-                    - I designed and implemented a user interface that enhances the post-apocalyptic horror atmosphere, integrating advanced UI elements through Unity’s UI Toolkit and optimizing graphic assets to minimize performance impact. I utilized Canvas Groups to manage visibility and transitions of UI elements and configured UI animations with Animator Controllers in UI Mask mode to provide a responsive and immersive user experience.<br/>
+                    __html: ` <br>
+                    - Grow Virus combina acción y horror en un escenario de laboratorio infestado por un letal virus zombi. Como único héroe capaz de detener la pandemia, debes infiltrarte en zonas de alta infección, localizar y destruir los nidos virales antes de que se extienda el contagio. Cada segundo cuenta en esta carrera contrarreloj para salvar a la humanidad. <br/>
                     <br/>
-                    - I developed the player movement system in C# using custom physics to simulate a more immersive and realistic survival experience. I utilized Unity's Rigidbody component along with custom calculations for force and resistance to replicate fatigue effects, integrating precise obstacle collisions through optimized colliders.<br/>
-                    <br/>
-                    - I implemented an advanced set of animations using Mecanim and C# programming, with an Animator Controller managing animation layers and Blend Trees for smooth transitions between movement states (such as walking, running, and specific combat actions). <br><br>
-                    <br/>`,
+                   `,
                   }}
                 />
               }
@@ -94,16 +111,18 @@ function ProjectsCSharp() {
               isBlog={false}
               showGitHub={true}
               title="Facing My Darkness"
+              techIcons={[
+                SiUnity,
+                TbBrandCSharp,
+                SiSass,
+              ]}
               description={
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: `
-                    - I designed and developed the introduction scene by leveraging Unity's Scene Management System and C# scripting to create an immersive environment that establishes the game's tone. I utilized Post-Processing Effects for lighting, shadows, and depth, combined with Audio Mixers to dynamically adjust soundscapes, ensuring a seamless integration of visual and audio elements.<br/>
+                    __html: ` <br>
+                    - Facing My Darkness es una experiencia narrativa en tercera persona. En ella controlas a Timmy, un niño cuya propia oscuridad interior cobra vida en un mundo reflejo. Combina exploración ambiental, puzles simbólicos y enfrentamientos contra tu yo malvado usando Cinemachine, Animator y efectos de post-procesado para sumergirte en una atmósfera de terror y auto-descubrimiento. <br/>
                     <br/>
-                    - I programmed the main character’s movement mechanics in the introduction scene using Unity's Rigidbody and Character Controller components. I applied the State Pattern in C# to manage movement states (idle, walk, run), ensuring responsive and modular control logic.<br/>
-                    <br/>
-                    - I implemented a detailed animation system with Unity's Animator Controller and C#, utilizing Blend Trees to handle transitions between movement states such as walking, running, and interacting with objects.<br><br>
-                    <br/>`,
+                   `,
                   }}
                 />
               }
@@ -118,15 +137,16 @@ function ProjectsCSharp() {
               showGitHub={true}
               isBlog={false}
               title="Cattle in Distress"
+              techIcons={[
+                SiUnity,
+                TbBrandCSharp,
+                SiSass,
+              ]}
               description={
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: `
-                    - I designed the platformer map model, implementing a system that dynamically activates and deactivates platforms using C# in a 2D space.<br/>
-                    <br/>
-                    - I assigned particle effects and sound events to the Game Over and Run Game scenarios, integrating Unity’s Particle System with C# to trigger dynamic visual effects upon specific game events.<br/>
-                    <br/>
-                    - I developed custom C# code to manipulate the character’s gravity and weight physics during movements in the Run Game scene. I utilized Unity’s Rigidbody2D and Gravity Scale to adjust the character's gravity dynamically, while applying custom forces and mass adjustments in real-time using AddForce and velocity properties for responsive, lifelike movement control. <br><br>
+                    __html: ` <br>
+                    - Cattle in Distress es un endless runner ambientado en el Lejano Oeste. Asumes el papel de un vaquero que galopa a toda velocidad, sorteando vallas, cactus y otros peligros del desierto. Gracias a su sistema de generación procedural de obstáculos y controles intuitivos, ofrece una experiencia ágil y desafiante ideal para poner a prueba tus reflejos. <br/>
                     <br/>
                    `,
                   }}

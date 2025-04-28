@@ -4,6 +4,8 @@ import Button from "react-bootstrap/Button";
 import { FaItchIo } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import { CiLink } from "react-icons/ci";
+// ahora opcional: un par de iconos de ejemplo,
+// pero en realidad los importas según lo que uses
 
 function ProjectCards(props) {
   return (
@@ -14,6 +16,19 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
+
+        {props.techIcons && props.techIcons.length > 0 && (
+          <div className="tech-icons">
+             {props.techIcons.map((IconComp, idx) => (
+               <IconComp
+                 key={idx}
+                 size={30}
+                 title={IconComp.displayName || "tech-icon"}
+               />
+             ))}
+           </div>   
+        )}
+
         {props.showGitHub && (
           <Button variant="primary" href={props.ghLink} target="_blank">
             <BsGithub /> &nbsp;
@@ -22,9 +37,7 @@ function ProjectCards(props) {
         )}
         {"\n"}
         {"\n"}
-
         {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
         {!props.isBlog && props.ItchLink && (
           <Button
             variant="primary"
@@ -36,10 +49,8 @@ function ProjectCards(props) {
             {"Play"}
           </Button>
         )}
-
         {"\n"}
         {"\n"}
-
         {/* New button for CiLink */}
         {props.projectLink && props.projectLink !== "" && (
           <Button

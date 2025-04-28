@@ -8,34 +8,43 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple"> Jossep Acosta </span>
-            from <span className="purple"> Bogotá</span>,<span className="purple"> Colombia.<br/></span>
+            Hola a todos, soy <span className="purple">Jossep Acosta </span>  
+            de <span className="purple"> Bogotá</span>, <span className="purple">Colombia.<br/></span>
             <br />
-            I’m a software developer with 1.5 years of experience specializing in front-end and full-stack development. I have worked on a variety of web applications, focusing on creating dynamic, user-friendly interfaces and robust back-end solutions.  
+            Soy un desarrollador de software con mas de 2 años de experiencia,  
+            especializado en desarrollo Front-End y Full-Stack. He trabajado en  
+            diversas aplicaciones web, enfocándome en crear interfaces dinámicas  
+            y fáciles de usar, así como soluciones back-end robustas.  
             <br/> 
-            <br/>Throughout my career, I have held key roles such as <span className="purple">  Front-End Developer</span>,<span className="purple"> Full-Stack Developer</span>, and <span className="purple">UI/UX Designer</span>, allowing me to build a comprehensive understanding of software development and successfully contribute to the implementation of innovative solutions.  
+            <br/>
+            A lo largo de mi carrera, he desempeñado roles clave como  
+            <span className="purple"> Desarrollador Front-End</span>,  
+            <span className="purple"> Desarrollador Full-Stack</span> y  
+            <span className="purple"> Diseñador UI/UX</span>, lo que me ha permitido  
+            adquirir una comprensión integral del desarrollo de software y  
+            contribuir con éxito a la implementación de soluciones innovadoras.  
             <br />
-            <br />I love working in different areas of software development such as: 
+            <br />
+            Me encanta trabajar en diferentes áreas del desarrollo de software, tales como:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Building responsive and accessible user interfaces  
-
+              <ImPointRight /> Construir interfaces de usuario responsivas y accesibles
             </li>
             <li className="about-activity">
-              <ImPointRight /> Optimizing performance in client-server architectures
+              <ImPointRight /> Optimizar el rendimiento en arquitecturas cliente-servidor
             </li>
             <li className="about-activity">
-              <ImPointRight /> Designing and implementing clean, scalable code
+              <ImPointRight /> Diseñar e implementar código limpio y escalable
             </li>
             <li className="about-activity">
-              <ImPointRight /> Collaborating across interdisciplinary teams
+              <ImPointRight /> Colaborar en equipos interdisciplinarios
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            <br/>"Find excellence among the details <br />
-            that have made you stumble"{" "}
+            <br/>"Encuentra la excelencia entre los detalles <br />
+            que te han hecho tropezar"
           </p>
           <footer className="blockquote-footer">Jossep</footer>
         </blockquote>

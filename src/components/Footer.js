@@ -9,7 +9,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Mail: <b className="purple"> allanacost.27@gmail.com</b></h3> 
+          <h3>Correo: <b className="purple"> allanacost.27@gmail.com</b></h3> 
         </Col>
         <Col md="4" className="footer-status">
           <CurrentStatus /> {/* Muestra el "Estado Actual" aquí */}

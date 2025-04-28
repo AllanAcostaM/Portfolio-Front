@@ -3,9 +3,9 @@ import { FaLaptopCode, FaBook, FaWrench } from "react-icons/fa";
 
 // Definición de los estados y sus íconos correspondientes
 const states = [
-  { text: "Building dynamic web applications", icon: <FaLaptopCode /> },
-  { text: "Learning advanced concepts in TypeScript", icon: <FaBook /> },
-  { text: "Improving skills in design patterns", icon: <FaWrench /> },
+  { text: "Construyendo aplicaciones web dinámicas", icon: <FaLaptopCode /> },
+  { text: "Aprendiendo conceptos avanzados en TypeScript", icon: <FaBook /> },
+  { text: "Mejorando habilidades en patrones de diseño", icon: <FaWrench /> },
 ];
 
 function CurrentStatus() {

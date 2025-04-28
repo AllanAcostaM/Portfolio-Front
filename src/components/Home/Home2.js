@@ -12,48 +12,65 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              PERMÍTEME <span className="purple"> PRESENTARME </span>
             </h1>
             <p className="home-about-body">
-            I'm Allan, an enthusiastic software developer passionate about crafting innovative  <br />
-            solutions. 💻  
+              Soy Allan, un entusiasta desarrollador de software apasionado por
+              crear soluciones innovadoras. 💻
               <br />
-              <br />I handle technologies like
+              <br />
+              Manejo tecnologías como
               <i>
-                <b className="purple"> React</b> {" "},{" "} <b className="purple">Angular</b> {" "},{" "} <b className="purple">Node.js</b> {" "} and {" "} <b className="purple"> postgreSQL</b>
+                <b className="purple"> React</b> ,{" "}
+                <b className="purple">Angular</b> ,{" "}
+                <b className="purple">Node.js</b> y{" "}
+                <b className="purple">PostgreSQL</b>
               </i>
               <br />
               <br />
-              My areas of interest include&nbsp; 
+              Mis áreas de interés incluyen&nbsp;
               <i>
-                <b className="purple">building intuitive </b>{" "} and {" "} <b className="purple">scalable web applications</b>{""},
-                enhancing user interfaces and{" "}
+                <b className="purple">construir aplicaciones web intuitivas</b>{" "}
+                y <b className="purple">escalables</b>, mejorar las interfaces
+                de usuario y{" "}
                 <b className="purple">
-                ensuring efficient server-side performance. 
+                  garantizar un rendimiento eficiente del lado del servidor
                 </b>
               </i>
+              .
               <br />
               <br />
-              Whenever possible, I channel my passion into developing 
-              software projects by implementing modern frameworks,{" "}
-              <b className="purple">leveraging design patterns</b>{""},{""} <b className="purple"> following clean architecture principles</b>{""}, and{""} <b className="purple">collaborating using agile methodologies</b>. I also maintain high-quality code through
-               version control systems like
+              Siempre que sea posible, canalizo mi pasión en el desarrollo de
+              proyectos de software implementando frameworks modernos,{" "}
+              <b className="purple">aprovechando patrones de diseño</b>,{" "}
+              <b className="purple">
+                siguiendo principios de arquitectura limpia
+              </b>{" "}
+              y <b className="purple">colaborando con metodologías ágiles</b>.
+              También mantengo un código de alta calidad mediante sistemas de
+              control de versiones usando{" "}
               <i>
-                <b className="purple"> Git </b>{" "}and{" "}<b className="purple">GitHub</b>{""}.{""} 
+                <b className="purple"> Git </b> y{" "}
+                <b className="purple">GitHub</b>
+                {""}.{""}
               </i>
             </p>
           </Col>
           <Col md={3} className="myAvtar">
             <Tilt>
-            <img src={MyAva} className="img-fluid rounded-avatar" alt="avatar" />
+              <img
+                src={MyAva}
+                className="img-fluid rounded-avatar"
+                alt="avatar"
+              />
             </Tilt>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>ENCUÉNTRAME EN</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+            Siéntete libre de <span className="purple">conectarte </span>conmigo
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
