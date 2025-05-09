@@ -24,7 +24,7 @@ function Home2() {
                 <b className="purple"> React</b> ,{" "}
                 <b className="purple">Angular</b> ,{" "}
                 <b className="purple">Node.js</b> y{" "}
-                <b className="purple">PostgreSQL</b>
+                <b className="purple">SQL</b>.
               </i>
               <br />
               <br />
@@ -47,13 +47,6 @@ function Home2() {
                 siguiendo principios de arquitectura limpia
               </b>{" "}
               y <b className="purple">colaborando con metodologías ágiles</b>.
-              También mantengo un código de alta calidad mediante sistemas de
-              control de versiones usando{" "}
-              <i>
-                <b className="purple"> Git </b> y{" "}
-                <b className="purple">GitHub</b>
-                {""}.{""}
-              </i>
             </p>
           </Col>
           <Col md={3} className="myAvtar">
